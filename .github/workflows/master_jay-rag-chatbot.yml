@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'jay-rag-chatbot'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6AFC957CC9D84531B0DD8260DC53EBA5 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
